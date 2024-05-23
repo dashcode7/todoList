@@ -1,0 +1,60 @@
+.wrapper{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+}
+.header{
+    background:linear-gradient(#fdbb2d,#22c1c3);
+    width: 100%;
+}
+.header-child{
+    display: flex;
+    justify-content: space-between;
+}
+textarea{
+    resize: none;
+}
+.date,.title,.time{
+    font-size: 2rem;
+}
+.title{
+    text-align: center;
+}
+.main{
+    width: 100%;
+}
+@media screen and (max-width:370px) {
+
+    .header-child{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.box{
+    display: flex;
+    gap: 15px;
+flex-flow: column;
+    align-items: center;
+    margin: 5px;
+}
+
+
+}
+.box{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.submit{
+    height: 40px;
+    color: white;
+    border-radius: 6px;
+    width: 100px;
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
